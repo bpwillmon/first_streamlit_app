@@ -44,9 +44,6 @@ try:
 except URLError as e:
   streamlit.error()                                
 
-#breakfix
-streamlit.stop()
-
 #snowflake connector
 #moved to top import snowflake.connector
 
